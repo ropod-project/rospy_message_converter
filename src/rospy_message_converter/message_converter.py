@@ -43,13 +43,11 @@ python_to_ros_type_map = {
                  'int16', 'uint16', 'int32', 'uint32',
                  'int64', 'uint64', 'float32', 'float64'],
     'float'   : ['float32', 'float64'],
-    'str'     : ['string'],
-    'unicode' : ['string'],
-    'long'    : ['uint64']
+    'str'     : ['string']
 }
 
-python_primitive_types = [bool, int, long, float]
-python_string_types = [str, unicode]
+python_primitive_types = [bool, int, float]
+python_string_types = [str]
 python_list_types = [list, tuple]
 
 ros_time_types = ['time', 'duration']
