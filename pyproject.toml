@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "rospy-message-converter"
+version = "0.5.0"
+description = "Converts between Python dictionaries and JSON to rospy messages."
+authors = ["Brandon Alexander <baalexander@gmail.com>"]
+license = "BSD"
+homepage = "http://ros.org/wiki/rospy_message_converter"
+
+
+[tool.poetry.dependencies]
+python = "^2.7 || ^3.5"
+rospkg = "^1.1.9"
+catkin-pkg = "^0.4.12"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
